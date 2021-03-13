@@ -204,8 +204,8 @@ namespace AuraAPI
         /// </summary>
         private void DisplayCommonSettingsArea()
         {
-            EditorGUILayout.BeginVertical(EditorStyles.miniButton);
-            GUILayout.Button(new GUIContent(" Base Parameters", lightIconTexture), GuiStyles.areaTitleBarStyle);
+            EditorGUILayout.BeginVertical();
+            GUILayout.Button(new GUIContent(" Base Parameters", lightIconTexture));
             EditorGUILayout.BeginVertical();
 
             EditorGUILayout.Separator();
@@ -251,8 +251,8 @@ namespace AuraAPI
         /// </summary>
         private void DisplayDirectionalLightAdditionalSettingsArea()
         {
-            EditorGUILayout.BeginVertical(EditorStyles.miniButton);
-            GUILayout.Button(new GUIContent(" Additional Parameters", lightIconTexture), GuiStyles.areaTitleBarStyle);
+            EditorGUILayout.BeginVertical();
+            GUILayout.Button(new GUIContent(" Additional Parameters", lightIconTexture));
             EditorGUILayout.BeginVertical();
 
             EditorGUILayout.Separator();
@@ -285,8 +285,8 @@ namespace AuraAPI
         /// </summary>
         private void DisplaySpotLightAdditionalSettingsArea()
         {
-            EditorGUILayout.BeginVertical(EditorStyles.miniButton);
-            GUILayout.Button(new GUIContent(" Additional Parameters", lightIconTexture), GuiStyles.areaTitleBarStyle);
+            EditorGUILayout.BeginVertical();
+            GUILayout.Button(new GUIContent(" Additional Parameters", lightIconTexture));
             EditorGUILayout.BeginVertical();
 
             EditorGUILayout.Separator();
@@ -320,8 +320,8 @@ namespace AuraAPI
         /// </summary>
         private void DisplayPointLightAdditionalSettingsArea()
         {
-            EditorGUILayout.BeginVertical(EditorStyles.miniButton);
-            GUILayout.Button(new GUIContent(" Additional Parameters", lightIconTexture), GuiStyles.areaTitleBarStyle);
+            EditorGUILayout.BeginVertical();
+            GUILayout.Button(new GUIContent(" Additional Parameters", lightIconTexture));
             EditorGUILayout.BeginVertical();
 
             EditorGUILayout.Separator();

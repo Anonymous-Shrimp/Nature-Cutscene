@@ -72,8 +72,8 @@ namespace AuraAPI
 
             EditorGUILayout.Separator();
 
-            EditorGUILayout.BeginVertical(EditorStyles.miniButton);
-            GUILayout.Button(new GUIContent(" Create Texture3D Asset", texture3DIcon), GuiStyles.areaTitleBarStyle);
+            EditorGUILayout.BeginVertical();
+            GUILayout.Button(new GUIContent(" Create Texture3D Asset", texture3DIcon));
             GuiHelpers.DrawContextualHelpBox("Create a composite Texture3D from a Texture2D.");
 
             EditorGUILayout.Separator();
